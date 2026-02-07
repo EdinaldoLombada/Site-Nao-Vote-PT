@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+.h1n1 {
+    text-align: center;
+}
+
+.Lulis {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Butao {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(126, 54, 54);
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+.container-central {
+    display: flex;          
+    justify-content: center; 
+    align-items: center;     
+    width: 100%;            
+    margin-top: 30px;       
+}
