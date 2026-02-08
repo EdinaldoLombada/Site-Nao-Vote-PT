@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+.h1n1 {
+    text-align: center;
+}
+
+.Lulis {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Butao {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(126, 54, 54);
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+.container-central {
+    display: flex;          
+    justify-content: center; 
+    align-items: center;     
+    width: 70%;            
+    margin-top: 70px;       
+}
+
+/* Limpa qualquer erro anterior */
+.letreiro-container {
+    width: 100% !important;
+    height: 60px !important;
+    background-color: #ff0000 !important;
+    overflow: hidden !important;
+    position: relative !important;
+    display: block !important;
+    z-index: 9999;
+    margin: 20px 0;
+}
+
+.letreiro {
+    position: absolute;
+    white-space: nowrap;
+    color: #ffffff !important;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 60px;
+    /* Força o início lá na borda direita da tela */
+    left: 100vw;
+    animation: mover-letreiro 8s linear infinite;
+}
+
+/* Animação simplificada para não dar erro no GitHub */
+@keyframes mover-letreiro {
+    from {
+        left: 100vw;
+    }
+    to {
+        left: 50vw;
+        transform: translateX(-200%);
+    }
+}
