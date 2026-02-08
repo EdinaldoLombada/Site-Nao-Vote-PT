@@ -66,6 +66,6 @@ body {
     }
     to {
         left: 50vw;
-        transform: translateX(-250%);
+        transform: translateX(-300%);
     }
 }
